@@ -1,5 +1,5 @@
 module Memorable
-  extend Artist::Method
+  extend Artist::class
   def self.reset_all
     self.all.clear
   end
