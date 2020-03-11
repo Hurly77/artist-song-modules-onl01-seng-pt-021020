@@ -1,7 +1,7 @@
 require 'pry'
 
 class Artist
-    extend Artist::Memorable
+    extend Artist::ClassMethods
   attr_accessor :name
   attr_reader :songs
 
