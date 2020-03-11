@@ -1,5 +1,4 @@
 module Memorable
-  extend Memorable
   def self.reset_all
     self.all.clear
   end
