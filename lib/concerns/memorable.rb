@@ -1,4 +1,5 @@
 module Memorable
+  extend Memorable::Artist
   def self.reset_all
     self.all.clear
   end
