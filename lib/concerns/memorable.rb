@@ -1,5 +1,5 @@
 module Memorable
-  extend Memorable
+  extend Song Artist
   def self.reset_all
     self.all.clear
   end
