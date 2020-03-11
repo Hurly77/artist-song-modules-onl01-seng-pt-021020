@@ -1,5 +1,4 @@
 module Memorable
-
   extend Artist::ClassMethods
   extend Song::ClassMethods
   module ClassMethods
