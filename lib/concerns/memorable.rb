@@ -1,5 +1,5 @@
 module Memorable
-  extend Song::self.reset_all
+  extend Song::ClassMethods
   def self.reset_all
     self.all.clear
   end
