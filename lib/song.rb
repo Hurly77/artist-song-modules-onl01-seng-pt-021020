@@ -8,7 +8,6 @@ class Song
   @@songs = []
 
   def initialize
-      extend Song::Memorable
     @@songs << self
   end
 
